@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Introduction Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script defer src="script.js"></script>
+</head>
+<body>
+	<div class="pageHeading">
+		<h1>INTRODUCTION FORM</h1>
+		</div>
+	<form action="/" method="GET">
+		<div class="formElem">
+			<div id="name" class="block">
+				<label class="inputLabel">NAME</label>
+				<input class="nameInp" type="text" required/>
+<!--				<label class="firstNamelabel">first name</label>-->
+				<input class="nameInp" type="text" required/>
+<!--				<label class="lastNamelabel">lastname</label>-->
+			</div>
+			<div class="block">
+				<label class="inputLabel">Email Id</label>
+				<input class="inpText" type="email" name="EMAIL_ID" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required/>
+			</div>
+			<div class="block">
+				<label class="inputLabel">Contact No</label>
+				<input class="inpText" type="tel" id="phone" name="phone" pattern="[0-9]{10}"  required/>
+			</div>
+			<div class="block">
+				<label class="inputLabel">Gender: </label>
+				<input type="radio" name="gender" value="male" required/> Male
+			  	<input type="radio" name="gender" value="female" required/> Female
+			  	<input type="radio" name="gender" value="other" required/> Other
+			</div>
+			<div class="block">
+				<label class="inputLabel">DOB: </label>
+				<input class="inputText" type="date" value="date" name="date" required/>
+			</div>
+			<div class="block">
+				<label class="inputLabel">Country</label>
+				<input class="inpText" type="text" name="last_name" required/><br>
+			</div>
+			<div class="but">
+				<button class="button" type="submit">Sumbit</button>
+			</div>
+
+		</div>
+	</form>
+</body>
+</html>

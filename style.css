@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url(bg.jpg);
+	background-position: center;
+	background-size: auto;
+	font-family: sans-serif;
+	margin-top: 5vh;
+}
+.pageHeading{
+	width: 80vw;
+	background-color: rgb(0,0,0,0.5);
+	margin: auto;
+	color: #FFFFFF;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	border-radius: 15px 15px 0px 0px;
+}
+.formElem{
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(0,0,0,.4);
+	width: 80vw;
+	height: 80vh;
+	margin: auto;
+	/*align-items: center;*/
+	/*align-content: center;*/
+	/*justify-content: center;*/
+}
+	/*form{*/
+	/*	padding: 10px;*/
+	/*}*/
+
+#name{
+	 width: 100%;
+}
+
+.inputLabel{
+	margin-left: 25px;
+	margin-top: 130px;
+	/*width: 125px;*/
+	/*width: 100%;*/
+	color: white;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.nameInp{
+	position: relative;
+	left: 2vw;
+	/*top: -37px;*/
+	line-height: 30px;
+	border-radius: 6px;
+	padding: 0 12px;
+	font-size: 13px;
+}
+.inpText{
+	position: relative;
+	left: 2vw;
+	/*top: -37px;*/
+	line-height: 30px;
+	border-radius: 6px;
+	padding: 0 12px;
+	font-size: 13px;
+}
+.block{
+	margin: 10px;
+	padding: 10px;
+}
+
+.button{
+	position: absolute;
+	/*align-self: center;*/
+	/*left: 50%;*/
+	bottom: 20vh;
+	margin: 10px;
+	padding: 10px;
+	left: 40vw;
+	border-radius: 125px;
+	border: white;
+	width: 20%;
+	/*-ms-transform: translateY(-50%) ;*/
+	/*transform: translateY(-50%) ;*/
+	background-color: #1b5ebf;
+	color: #ffffff;
+	font-size: 20px;
+}
+.but{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+}
